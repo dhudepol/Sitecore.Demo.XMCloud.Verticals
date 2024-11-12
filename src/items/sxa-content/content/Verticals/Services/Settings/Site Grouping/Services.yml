@@ -16,6 +16,9 @@ SharedFields:
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
   Value: "arcadis-demo-isfumbvyne6iqhmmsgus4w-services.vercel.app"
+- ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
+  Hint: POS
+  Value: "en=services_1&fr-CA=services_2"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Services
@@ -35,7 +38,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3b81e4a0-91c7-4d4c-906b-9273091ab5b8"
+      Value: "4d7be399-e1bc-4625-8799-3151bb2bd2cb"
     - ID: "96cffc48-0bd5-4f70-9b36-d49c844d51ef"
       Hint: Theme
       Value: Services
