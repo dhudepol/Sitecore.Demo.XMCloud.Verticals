@@ -1,0 +1,13 @@
+﻿---
+ID: "e44febef-404f-4bb3-8b23-562dd35142b6"
+Parent: "49c735e2-aabf-48bc-b30c-44283b437cc2"
+Template: "c24bfc74-c6e2-413a-aebd-903180dfaff7"
+Path: /sitecore/content/Verticals/Services/Home/Demo/Data/Stats Counter 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abcd1ab1-81ef-44e1-975c-bf7eac6f23fe"

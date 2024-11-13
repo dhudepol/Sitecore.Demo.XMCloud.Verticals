@@ -1,0 +1,20 @@
+﻿---
+ID: "0627f5d3-3ac9-48ce-a7aa-10353df55d84"
+Parent: "618ba500-170c-4609-8096-06637410671c"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Verticals/Services/Home/about/Data/Copy of Text 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h1>Crafting Exceptional Designs for a Digital World in the UK</h1></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "577246c9-7583-4779-af15-90425367f71e"

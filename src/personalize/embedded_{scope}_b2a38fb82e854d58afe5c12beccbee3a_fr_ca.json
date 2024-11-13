@@ -4,8 +4,8 @@
   "ref": "b0fb2136-c178-46a7-905a-c78341a069b7",
   "name": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_fr_ca",
   "modifiedByRef": "UsQ4dFnLMklHuDXU8acKstHeXEC65tgU@clients",
-  "modifiedAt": "2024-11-12T07:26:55.813Z",
-  "revision": 4,
+  "modifiedAt": "2024-11-12T19:04:47.647Z",
+  "revision": 6,
   "archived": false,
   "friendlyId": "embedded_{scope}_b2a38fb82e854d58afe5c12beccbee3a_fr_ca",
   "type": "INTERACTIVE_API_FLOW",
@@ -20,7 +20,7 @@
   "traffic": {
     "type": "audienceTraffic",
     "weightingAlgorithm": "USER_DEFINED",
-    "modifiedAt": "2024-11-12T07:26:55.828Z",
+    "modifiedAt": "2024-11-12T19:04:47.781Z",
     "splits": [
       {
         "template": "{\"variantId\": \"517ebf003adb4815a4658b88f3e68bd6\"}",
@@ -119,15 +119,15 @@
   "variants": [],
   "transpiledVariants": [
     {
-      "ref": "54134427-13ea-479a-bc8b-c0561e37e942",
-      "name": "Retirement Page View",
+      "ref": "0a94f404-8d11-4411-a2de-28264a0a3b0b",
+      "name": "Business Page View",
       "tasks": [
         {
           "implementation": "templateRenderTask",
           "input": {
             "inputType": "templateRenderTaskInput",
             "type": "application/json",
-            "template": "{\"variantId\": \"9c4385ef27284ac29c041e21a535f4c4\"}"
+            "template": "{\"variantId\": \"eafbfd8333de4f2a9978f5e02421151e\"}"
           }
         },
         {
@@ -140,7 +140,7 @@
                 "name": "Combined condition groups",
                 "description": "Combined templates within condition group for targeted experience",
                 "ruleData": {
-                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"retirement-planning\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
+                  "expression": "(function () {\n    var visited = \"has\";\n    var pageName = \"business\";\n    var pageValues = pageName.split(',');\n    var expectedType = \"WEB\";\n    var expectedStatus = \"OPEN\";\n    var pageMatch = false;\n\n    if (guest && guest.sessions && guest.sessions.length > 0) {\n        loop:\n        for (var i = 0; i < guest.sessions.length; i++) {\n            if (guest.sessions[i]) {\n                if (\n                    guest.sessions[i].sessionType !== expectedType\n                    || guest.sessions[i].status !== expectedStatus\n                ) {\n                    continue loop;\n                } else if (\n                    guest.sessions[i].events\n                ) {\n                    for (var j = 0; j < guest.sessions[i].events.length; j++) {\n                        if (guest.sessions[i].events[j].arbitraryData) {\n                            if (guest.sessions[i].events[j].arbitraryData.page) {\n                                var viewedpage = guest.sessions[i].events[j].arbitraryData.page;\n                                for (var k = 0; k < pageValues.length; k++) {   \n                                    if (viewedpage === pageValues[k]) { \n                                        pageMatch = true;   \n                                        break loop; \n                                    }   \n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    \n    return (visited === \"has\") && pageMatch || (visited === \"has not\") && !pageMatch;\n})();"
                 }
               }
             ]

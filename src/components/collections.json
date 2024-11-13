@@ -33,19 +33,7 @@
           "givenName": "Derk",
           "familyName": "Hudepol"
         },
-        "bundles": [
-          {
-            "id": "responsive",
-            "libraryId": "generated",
-            "componentId": "WkNl5GkDS0",
-            "name": "Default bundle",
-            "description": "",
-            "breakpoints": {},
-            "orderIdx": "",
-            "createdAt": "2024-11-12T18:55:55.258Z",
-            "modifiedAt": "2024-11-12T18:55:55.258Z"
-          }
-        ]
+        "bundles": []
       },
       {
         "libraryId": "generated",

@@ -1,0 +1,115 @@
+﻿---
+ID: "c73e757a-c2de-44a9-b3fe-fd811eed4578"
+Parent: "57f2e85d-d695-4e6c-8c89-947ce5443e2e"
+Template: "1226c3c7-2d1f-48f5-87b4-c1da459f05e5"
+Path: /sitecore/content/Verticals/Services/Home/Demo
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{81E3FFCD-C309-4B81-898E-60C1697D66E9}"
+          p:before="*"
+          s:ds="local:/Data/Hero 1"
+          s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
+          s:pt="personalizationTest"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main">
+          <rls>
+            <ruleset
+              s:pet="true">
+              <rule
+                uid="{973751FE-5C67-4E1F-8063-CEDEF94FEE9C}"
+                s:name="81e3ffcdc3094b81898e60c1697d66e9_212b001db0a64dabb6930d0d213b06d6">
+                <conditions>
+                  <condition
+                    uid="2635A9B987C54CB2B165227AEB740624"
+                    s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                    s:VariantName="81e3ffcdc3094b81898e60c1697d66e9_212b001db0a64dabb6930d0d213b06d6" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="{DCBA1E24-1655-477F-B48C-D8F450E77891}"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="9bac7bb5-8882-4b8e-936d-ff0cddfd018b" />
+                  <action
+                    uid="{F96F7ABE-2EC0-4968-ACCD-21EED1BA4671}"
+                    s:id="{7B578B65-BD2F-4C7C-9A24-DAE3E98B4F23}"
+                    s:RenderingItem="8094185b-4c72-40c8-b005-c6ed91708754" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                s:name="Default">
+                <conditions>
+                  <condition
+                    uid="FB080F4454AD4C208FB424A882D6F7CE"
+                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                </conditions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          uid="{A871F16D-C21B-4097-8892-8D8806A311AC}"
+          p:after="r[@uid='{81E3FFCD-C309-4B81-898E-60C1697D66E9}']"
+          s:ds="local:/Data/Stats Counter 1"
+          s:id="{316889FA-FDD4-42A6-A034-201124FE54E8}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7BF50EB4F2-6C9A-4226-828C-C0F21D66F789%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main" />
+        <r
+          uid="{F12D36EA-17C6-4348-B7F5-E94F7C615636}"
+          p:after="r[@uid='{A871F16D-C21B-4097-8892-8D8806A311AC}']"
+          s:ds="local:/Data/Two Column CTA 1"
+          s:id="{3A9A9D22-C092-4B54-9511-EB202CEABE8D}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ButtonStyle=Main&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main" />
+        <r
+          uid="{6EBC5E1A-3F2D-401A-BC7F-81223AC84EDD}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Quote 1"
+          s:id="{4B94B6D0-CA8E-4807-BB9A-4C3FBD21504C}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B21A99D25-DAD0-4DD0-888A-45E1B6473F30%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "247be607-394a-4bf2-8c8a-509b07025dd9"
+      Hint: Title
+      Value: Demo
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53c4f73e-0a00-423d-86b1-efd7e7db9094"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C8FF2A20-ABA6-409B-AD69-955CD5219D07}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "08d2f884-a0e2-41d0-9945-d590644b56ce"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: French

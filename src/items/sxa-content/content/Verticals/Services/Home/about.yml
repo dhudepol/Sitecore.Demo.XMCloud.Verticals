@@ -28,8 +28,40 @@ SharedFields:
           uid="{3ADEB316-1AA2-48A0-A536-B89A7F635BF1}"
           p:after="r[@uid='{D0FC53E2-E742-4A50-8A52-38C428D1ABFB}']"
           s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:pt="personalizationTest"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B2BBF52B7-A2C0-466F-9D7A-35B4CE3C79C1%7D%7C%7B7EBB6C9F-C1B0-4FB3-9B52-AEEC8055D6F4%7D%7C%7BE86E740F-58D7-4151-9977-84B0382C458F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-          s:ph="headless-main" />
+          s:ph="headless-main">
+          <rls>
+            <ruleset
+              s:pet="true">
+              <rule
+                uid="{501EBF23-C4C7-45E5-AB86-3DE870727B35}"
+                s:name="62c6b39059214163b4e23ffe62c1d6a7">
+                <conditions>
+                  <condition
+                    uid="51737EE56C374D89A2F23FF6DA1FB4CB"
+                    s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                    s:VariantName="62c6b39059214163b4e23ffe62c1d6a7" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="{5B217C31-BEB6-47A8-90CA-8792016C5A34}"
+                    s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                    s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7C%7B2BBF52B7-A2C0-466F-9D7A-35B4CE3C79C1%7D%7C%7B7EBB6C9F-C1B0-4FB3-9B52-AEEC8055D6F4%7D%7C%7BE86E740F-58D7-4151-9977-84B0382C458F%7D%7C%7BFFDDD02F-ACCB-4F74-B081-FE23119B47D8%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                s:name="Default">
+                <conditions>
+                  <condition
+                    uid="B4013976FED54E3D9AF914DE754D2E87"
+                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                </conditions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
         <r
           uid="{C04271EC-2CD1-416C-814F-10DF9DA7C483}"
           p:after="r[@uid='{3ADEB316-1AA2-48A0-A536-B89A7F635BF1}']"
@@ -42,8 +74,40 @@ SharedFields:
           p:after="r[@uid='{C04271EC-2CD1-416C-814F-10DF9DA7C483}']"
           s:ds="local:/Data/Features 1"
           s:id="{B7EFFFDB-2F0C-4C5E-A8BE-D9F8677F01DA}"
+          s:pt="personalizationTest"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
-          s:ph="headless-main" />
+          s:ph="headless-main">
+          <rls>
+            <ruleset
+              s:pet="true">
+              <rule
+                uid="{96C5F0AA-1AA9-4D83-AA0B-99ABC3521A1A}"
+                s:name="62c6b39059214163b4e23ffe62c1d6a7">
+                <conditions>
+                  <condition
+                    uid="14B039345755420EA1427D3CDEE52AEE"
+                    s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                    s:VariantName="62c6b39059214163b4e23ffe62c1d6a7" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="{AE44B6C5-36DE-4C77-A2AF-36FFD1AE0DC5}"
+                    s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                    s:Parameters="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B152F91E0-0198-4A94-81F4-A37B0580FCC6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                s:name="Default">
+                <conditions>
+                  <condition
+                    uid="D3F1B96C73A54D08964A34071B6A2396"
+                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                </conditions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
         <r
           uid="{57611729-C879-4DB8-B7F0-DC62C292AE18}"
           p:after="r[@uid='{7F5E4754-ECB2-44D1-9548-5C62D16135DE}']"
@@ -96,8 +160,40 @@ SharedFields:
           p:after="r[@uid='{E0F26403-3BE0-423B-9ECA-B20649BCB916}']"
           s:ds="local:/Data/Text 1"
           s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:pt="personalizationTest"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC2C499C-3D24-4AE9-B436-811F89D71989%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
-          s:ph="/headless-main/container-3/column-1-4" />
+          s:ph="/headless-main/container-3/column-1-4">
+          <rls>
+            <ruleset
+              s:pet="true">
+              <rule
+                uid="{020B087B-793B-4645-B9C0-A684DD1CB886}"
+                s:name="62c6b39059214163b4e23ffe62c1d6a7">
+                <conditions>
+                  <condition
+                    uid="1D15780FDB86471690750B1278116820"
+                    s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                    s:VariantName="62c6b39059214163b4e23ffe62c1d6a7" />
+                </conditions>
+                <actions>
+                  <action
+                    uid="{AC50C237-65EE-4EBB-A345-7D8985476AC5}"
+                    s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    s:DataSource="0627f5d3-3ac9-48ce-a7aa-10353df55d84" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                s:name="Default">
+                <conditions>
+                  <condition
+                    uid="D55D22DB0A184D6AB6427F1A9A367F5B"
+                    s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                </conditions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
         <r
           uid="{65136D19-A292-4FB6-B45D-905D698F7298}"
           p:after="r[@uid='{96D6F9B3-3CEF-4D22-97D4-83003ED57481}']"
@@ -147,4 +243,4 @@ Languages:
       Value: About
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b8d0635b-0b8f-49dd-a4f8-31bcb4e0c9ce"
+      Value: "b25e5eda-1032-4d11-add9-72aefbdac0ba"

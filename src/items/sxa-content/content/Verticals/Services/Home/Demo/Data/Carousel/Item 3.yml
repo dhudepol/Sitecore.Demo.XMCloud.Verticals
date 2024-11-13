@@ -1,0 +1,18 @@
+﻿---
+ID: "f58952fa-77a9-405a-be90-a294511a8898"
+Parent: "9bac7bb5-8882-4b8e-936d-ff0cddfd018b"
+Template: "54db209d-cd0f-49d9-ae4e-ecb65d72cc4d"
+Path: /sitecore/content/Verticals/Services/Home/Demo/Data/Carousel/Item 3
+BranchID: "ce40209e-3961-4d15-871f-d959ef53797e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{4FB5EF1E-4682-4B41-8AE8-8B6A2DBF8027}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d623392-d074-4e03-874c-53b359f13e98"
